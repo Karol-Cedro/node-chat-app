@@ -4,7 +4,7 @@ Node.JS Chat App
 A chat/messenger app, which provides some real-time Messenger's basic features such as room chat, send location, auto-scrolling. The project is developed with multiple technologies including Node.js, Socket.io, jQuery, Moment, Mustache.js, HTML, CSS, etc.
 
 
-URL: [https://lit-crag-58434.herokuapp.com/](https://lit-crag-58434.herokuapp.com/)
+URL:[https://lit-crag-58434.herokuapp.com/](https://lit-crag-58434.herokuapp.com/)
 
 ![Chat App Preview](node-chat-app.png)
 
