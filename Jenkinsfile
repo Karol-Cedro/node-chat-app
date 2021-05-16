@@ -50,7 +50,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Start deploying'
-                sh 'docker build -t deploy -f docker-deploy'
+                sh 'docker build -t deploy -f docker-deploy .'
                 
             }
         post {
