@@ -6,7 +6,6 @@ pipeline {
                 echo 'Start building'
                 sh 'git pull origin master'
                 sh 'npm install'
-                sh 'npm build'
             }
 
         post{
@@ -51,6 +50,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Start deploying'
+                sh 'docker build -t deploy -f docker-deploy'
                 
             }
         post {
