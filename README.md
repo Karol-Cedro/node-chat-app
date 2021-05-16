@@ -5,7 +5,6 @@ A chat/messenger app, which provides some real-time Messenger's basic features s
 
 URL: [https://lit-crag-58434.herokuapp.com/](https://lit-crag-58434.herokuapp.com/)
 
-
 ![Chat App Preview](node-chat-app.png)
 
 Features
